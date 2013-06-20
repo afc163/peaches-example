@@ -1,0 +1,21 @@
+{
+  "name": "peaches-example",
+  "family": "alice",  
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/afc163/peaches-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afc163/peaches-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/afc163/peaches-example/issues"
+  },
+  "spm": {
+    "alias": {},
+    "peaches": true,
+    "output": [
+      "homeindex.css"
+    ]
+  }
+}

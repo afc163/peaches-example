@@ -2,24 +2,29 @@
 
 ---
 
-// description
+The example for peaches in spm-alipay-suite.
 
 ---
 
-## 演示
+## Prepare
 
-<link type="text/css" rel="stylesheet" media="screen" href="src/peaches-example.css">
+```
+$ npm install spm -g
+$ npm install spm-alipay-suite -g
+```
 
-### 默认
+## Config in your package.json
 
-````html
-<div class="alice-peaches-example">
-</div>
-````
+```
+  "spm": {
+    "peaches": true
+  }
+```
 
-### 示例一
+## Build
 
-````html
-<div class="alice-peaches-example">
-</div>
-````
+```
+$ spm build
+```
+
+Then check `dist/file.css`, it contains the sprites images that peaches make for you.

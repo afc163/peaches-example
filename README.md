@@ -9,8 +9,7 @@ The example for peaches in spm-alipay-suite.
 ## Prepare
 
 ```
-$ npm install spm -g
-$ npm install spm-alipay-suite -g
+$ npm install apm -g
 ```
 
 ## Config in your package.json
